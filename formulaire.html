@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+</head>
+<body>
+
+  <h2>Formulaire</h2>
+  
+  <form action="/action_page.php">
+      <label for="username">Pseudonyme:</label><br>
+      <input type="text" id="username" name="username"
+      placeholder="Entrez votre pseudo"><br>
+      <label for="E-mail">E-mail:</label><br>
+      <input type="text" id="E-mail" name="fname"
+      placeholder="E-mail"><br>
+      <label for="pwd">Mot de passe*:</label><br>
+      <input type="password" id="pwd" name="pwd"
+      placeholder="Entrez votre mot de passe" required><br>
+      <label for="photo">Photo</label><br>
+      <input type="file" id="Photo">
+  
+  <fieldset>
+      <legend>Choix multiples</legend>
+  
+  <p>Quelle <strong> destination </strong> choisissez-vous ? :</p>
+  
+    <input type="checkbox" id="travel1" name="travel1" value="Japon">
+    <label for="travel1"> Japon</label><br>
+    <input type="checkbox" id="travel2" name="travel2" value="Corée du Sud">
+    <label for="travel2"> Corée du Sud</label><br>
+    <input type="checkbox" id="travel3" name="travel3" value="Canada">
+    <label for="travel3"> Canada</label><br>
+  
+    <p>Qui seront vos accompagnateurs ? :</p>
+    
+      <input type="radio" id="En famille" name="fav_language" value="En famile">
+      <label for="Entre famille">En famille</label><br>
+      <input type="radio" id="Entre amis" name="fav_language" value="Entre amis">
+      <label for="Entre amis">Entre amis</label><br>
+      <input type="radio" id="Solo" name="fav_language" value="Solo">
+      <label for="Solo">Solo</label>
+  
+      </fieldset>
+      <label for="Commentaires">Commentaires</label>
+      <textarea name="Commentaires" id="Commentaires" cols="80" rows="8"></textarea> <br>
+  
+  
+    </form> 
+  
+</body>
+</html>

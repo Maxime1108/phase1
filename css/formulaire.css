@@ -1,0 +1,18 @@
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    background-color: lightgray;
+    color: blue;
+    width: 190px;
+    float: left;
+}
+
+div:first-child {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
