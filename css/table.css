@@ -1,0 +1,31 @@
+*{
+    font-family: fantasy;
+}
+
+table{
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+tr{
+    border: 1px solid #6a5acd;
+    text-align: center;
+    padding: 5px;
+}
+th{
+    width: 25%;
+    background-color: rgb(255, 163, 193);
+    padding: 4px;
+}
+
+caption {
+    background-color: rgb(255, 183, 214);
+    color: rgb(255, 188, 199);
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
