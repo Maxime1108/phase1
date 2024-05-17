@@ -8,9 +8,23 @@
     margin: auto;
 }
 
+h1{
+    background-color: beige;
+    height: 60px;
+}
+
 header {
     height: 150px;
     background-color: blanchedalmond;
+}
+
+img {
+    width: 500px;
+    margin: auto;
+}
+
+h2{
+    background-color: rgb(246, 255, 0);
 }
 
 nav {
@@ -19,12 +33,12 @@ nav {
 }
 
 main section:first-child{
-    background-color: red;
+    background-color: rgb(255, 169, 149);
     height: 200px;
 }
 
 main section:nth-child(2) {
-    background-color: blue;
+    background-color: rgb(176, 176, 255);
     height: 30px;
 }
 
@@ -43,7 +57,7 @@ footer{
         text-align: left;
     }
     .content {
-      background-color: rgb(48, 167, 46);
+      background-color: rgb(85, 70, 251);
       width: 100%;
     }
     header{
@@ -51,13 +65,13 @@ footer{
     }
 }
 @media screen and (max-width: 750px) {
-    .content {
-        background-color: lightblue;
-        width: 80%;
+    selection {
+        background: url("/img/tumblr_67633f1f08b70e5abe3d48e751f482eb_26264ff2_400.jpg");
+        background-position: center;
+        background-size: cover;
+
     }
-    header{
-        height: 80px;
-    }
+    
 }
 @media screen and (max-width: 500px) {
     .content {
