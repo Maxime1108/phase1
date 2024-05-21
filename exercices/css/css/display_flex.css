@@ -1,0 +1,6 @@
+#exo2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
