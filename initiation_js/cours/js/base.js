@@ -33,3 +33,14 @@ var addition2Number = 2 + 6;
 alert(variable);
 document.write(unChiffre);
 console.log(cetteAnnee, stringAddition, addition2Number);
+
+// type variables
+// 1- string "maison"
+// 2- interger : 4, 5, ...
+// 3- boolean true / false
+// 4- float 12,56
+
+// console.log(typeof stringAddition);
+var convertNumberToString = addition2Number.toString();
+console.log(typeof addition2Number);
+console.log(typeof convertNumberToString);
