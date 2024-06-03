@@ -31,8 +31,10 @@ console.log(typeof texte);
 texte = parseInt(texte);
 console.log(typeof texte);
 if (texte >= age) {
-  alert("bienvenue!");
+  alert("Bienvenue !");
 } else {
-  alert("Vous serez redirigé vers un autre site.");
+  alert(
+    "Vous n'êtes pas autorisé à accéder à ce site. Vous allez être redirigé vers un autre site."
+  );
   document.location.href = "http://www.darty.com/";
 }

@@ -1,6 +1,7 @@
 // incrementation_decrementation
 // Déclarer une variable et affecter une valeur : num1 :5
 // Incrémentation d'une variable :
+
 var num1 = 5;
 
 console.log(num1);
