@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns:mso="urn:schemas-microsoft-com:office:office"
+    xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Parite</title>
+
+    <!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:xd_Signature msdt:dt="string"></mso:xd_Signature>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Mitra Izadi</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">22244700.0000000</mso:Order>
+<mso:Crééle msdt:dt="string">2022-01-04T07:23:15Z</mso:Crééle>
+<mso:xd_ProgID msdt:dt="string"></mso:xd_ProgID>
+<mso:_ExtendedDescription msdt:dt="string"></mso:_ExtendedDescription>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Mitra Izadi</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
+<mso:TemplateUrl msdt:dt="string"></mso:TemplateUrl>
+<mso:ContentTypeId msdt:dt="string">0x01010043D02664A89AAD48A0D0F75A37AE079A</mso:ContentTypeId>
+<mso:TriggerFlowInfo msdt:dt="string"></mso:TriggerFlowInfo>
+<mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
+<mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
+<mso:MediaLengthInSeconds msdt:dt="string"></mso:MediaLengthInSeconds>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body>
+    <h1>ParitÃ©</h1>
+
+    <h2>Examinez le programme parite.js ci-dessous qui affiche les nombres pairs (divisibles par 2) jusqu'à 10.</h2>
+
+    <pre>
+<code>
+for (var i = 1; i <= 10; i++) {
+if (i % 2 === 0) {
+console.log(i + " est pair");
+}
+}
+</code>
+</pre>
+
+    <p>
+        Il utilise l'opÃ©rateur modulo %, qui calcule le reste de la division entiÃ¨re d'un nombre par un autre. Si le
+        rÃ©sultat du modulo d'un nombre par 2 est 0, alors ce nombre est pair. Voici quelques exemples d'utilisation de
+        cet opÃ©rateur.
+    </p>
+
+    <ul>
+        <li>console.log(10 % 2); // Affiche 0 car 10 = 5 * 2 + 0</li>
+        <li>console.log(11 % 2); // Affiche 1 car 11 = 5 * 2 + 1</li>
+        <li>console.log(18 % 3); // Affiche 0 car 18 = 3 * 6 + 0</li>
+        <li>console.log(19 % 3); // Affiche 1 car 19 = 3 * 6 + 1</li>
+        <li>console.log(20 % 3); // Affiche 2 car 20 = 3 * 6 + 2</li>
+    </ul>
+
+    <h2>Modifiez le programme parite.js pour qu'il affiche aussi les nombres impairs.</h2>
+
+    <ul>
+        <li>1 est impair</li>
+        <li>2 est pair</li>
+        <li>3 est impair</li>
+        <li>4 est pair</li>
+        <li>5 est impair</li>
+        <li>6 est pair</li>
+        <li>...</li>
+    </ul>
+
+    <p>
+        Ensuite, amÃ©liorez le programme pour que le nombre initial soit saisi par l'utilisateur.
+    </p>
+
+    <p style='border: 1px solid; background-color: lightgray'>
+        Le programme ne doit afficher que 10 nombres (y compris
+        celui saisi) et non 11.
+    </p>
+    <script type="text/javascript" src="js/partie.js"></script>
+</body>
+
+</html>
